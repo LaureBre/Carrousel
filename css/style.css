@@ -1,0 +1,56 @@
+*
+{
+  background-color: black;
+  color: lightgrey;
+  /* border: 1px solid white; */
+}
+
+body
+{
+  margin: 5% 30%;
+}
+
+#carrousel
+{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#conteneur
+{
+  height: 200px;
+  width: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+#images
+{
+  position: absolute;
+  height: 200px;
+  left: -320px;
+  display: flex;
+  flex-wrap: nowrap;
+  -webkit-transition: 1s; /* Safari */
+  -moz-transition: 1s;
+  transition: 1s;
+}
+
+img
+{
+  margin: 1%;
+}
+
+button
+{
+  font-size: 5em;
+  border: none;
+}
+
+img
+{
+  height: 240px;
+  width: 320px;
+}
