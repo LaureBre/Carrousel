@@ -21,7 +21,7 @@ body
 #conteneur
 {
   height: 200px;
-  width: 500px;
+  width: 267px;
   overflow: hidden;
   position: relative;
 }
@@ -30,7 +30,7 @@ body
 {
   position: absolute;
   height: 200px;
-  left: -320px;
+  left: -634px;
   display: flex;
   flex-wrap: nowrap;
   -webkit-transition: 1s; /* Safari */
@@ -40,7 +40,8 @@ body
 
 img
 {
-  margin: 1%;
+  margin: 20px;
+  clip:rect(-100px,0px,0px,-50px);
 }
 
 button
@@ -51,6 +52,5 @@ button
 
 img
 {
-  height: 240px;
-  width: 320px;
+  height: 200px;
 }
