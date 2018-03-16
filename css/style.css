@@ -2,6 +2,8 @@
 {
   background-color: black;
   color: lightgrey;
+  margin: 0;
+  padding: 0;
   /* border: 1px solid white; */
 }
 
@@ -24,13 +26,14 @@ body
   width: 267px;
   overflow: hidden;
   position: relative;
+  /* border: 1px solid white; */
 }
 
 #images
 {
   position: absolute;
   height: 200px;
-  left: -634px;
+  left: -20px;
   display: flex;
   flex-wrap: nowrap;
   -webkit-transition: 1s; /* Safari */
@@ -40,7 +43,7 @@ body
 
 img
 {
-  margin: 20px;
+  margin: 0 20px;
   clip:rect(-100px,0px,0px,-50px);
 }
 
