@@ -16,7 +16,7 @@ domRight.addEventListener('click', function() { move(-1); });
 
 function move(dir) {
     var a = domImages.offsetLeft;
-    if (((compteur < images.length) && (dir == -1)) || ((dir == 1) && (compteur > 0))) {
+    if (((compteur < images.length-1) && (dir == -1)) || ((dir == 1) && (compteur > 0))) {
         domLeft.disabled = true;
         domRight.disabled = true;
         setTimeout(function(){domRight.disabled = false;}, 1000);
