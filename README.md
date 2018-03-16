@@ -5,4 +5,4 @@ Goal : code a home made Carrousel with Javascript
 # Carrousel
 Home made Carrousel
 
-[Click here](https://htmlpreview.github.io/?https://github.com/LaureBre/Carrousel/blob/master/index.html)
+[Click here](https://cdn.rawgit.com/LaureBre/Carrousel/d454dd77/index.html)
